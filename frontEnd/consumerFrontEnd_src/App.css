@@ -1,0 +1,196 @@
+:root{
+  --primary: #22b14c;
+  --danger: #ff0000;
+}
+
+/* Dark Theme Styles */
+.dark {
+  background-color: #333;
+
+  code {
+    color: #0ff; 
+  }
+  a {
+    color: #0ff;
+  }
+
+  button, 
+  input,
+  select {
+    background-color: #555;
+  }
+}
+
+/* Light Theme Styles */
+.light {
+  color: black;
+  background-color: white;
+
+  code {
+    color: #0ff; 
+  }
+
+
+  button, 
+  input,
+  select {
+    background-color: #ffffff;
+  }
+}
+
+
+.App {
+  text-align: center;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px; 
+}
+.a {
+  color: #0000ff;
+}
+
+/* Credit to W3Schools for this button design
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3
+*/
+.create_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #22b14c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.create_button:hover {background-color: green}
+
+.create_button:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.remove_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.remove_button:hover {background-color: #c11818}
+
+.remove_button:active {
+  background-color: #c11818;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.list_button {
+  display: block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0000ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 10px;
+}
+
+.list_button:hover {background-color: #1837c1}
+
+.list_button:active {
+  background-color: #1837c1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.show-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-entry {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #ddd; */
+}
+
+.user-entry label {
+  margin-top: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.show-list button {
+  align-self: flex-end;
+}
+.show-list button:hover {
+  background-color: #eee;
+}
+.show-list ul{
+  text-align: left;
+  /* list-style: circle; */
+}
+
+.show-available-seats {
+  
+  text-align: left;
+  padding-left: 5%;
+}
+
+.fildeset {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10%;
+}
+
+@media (max-width: 1000px) {
+  .fildeset {
+    flex-direction: column; 
+  }
+
+  .fildeset > * {
+    flex-basis: 20%;
+  }
+}
+
+.search-shows {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.purchase-seats {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.TextField {
+  padding-left: 5%;
+}

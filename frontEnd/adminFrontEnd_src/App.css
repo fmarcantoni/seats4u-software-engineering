@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+/* Credit to W3Schools for this button design
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3
+*/
+.create_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #22b14c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.create_button:hover {background-color: green}
+
+.create_button:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.remove_button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.remove_button:hover {background-color: #c11818}
+
+.remove_button:active {
+  background-color: #c11818;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.list_button {
+  display: block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0000ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 10px;
+}
+
+.list_button:hover {background-color: #1837c1}
+
+.list_button:active {
+  background-color: #1837c1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
