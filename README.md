@@ -1,4 +1,4 @@
-# seats4u
+# Seats4u - Software Engineering
 
 ## Project Overview
 seats4u is a ticketing platform that serves three different user groups: consumers, administrators (admin), and venue managers (VM).
@@ -34,19 +34,10 @@ seats4u is a ticketing platform that serves three different user groups: consume
 * Generate show reports for shows at any venue linked to their access key
 * Deactivate shows who's start time has passed
 
-## UI Photos
+## To see the website in action refer to the following link:
 
-### Landing Page:
-<image src="https://github.com/Shivangi-Sirsiwal/seats4u/assets/152037538/ce2cb354-6742-4e2f-9d79-40668a1d4b6d" width="600">
+https://filippomarcantoni.wixsite.com/portfolio-fmarcanto/portfolio-collections/my-portfolio/seats4u-software-engineering
 
-### Consumer Page:
-<image src="https://github.com/Shivangi-Sirsiwal/seats4u/assets/152037538/c5457d2e-792b-4b6b-9fe6-94fe7683a9d7" width="850">
-
-### Admin Page:
-<image src="https://github.com/Shivangi-Sirsiwal/seats4u/assets/152037538/e5a15e45-0220-43ad-9bda-470f43cd09bd" width="600">
-
-### VM Page:
-<image src="https://github.com/Shivangi-Sirsiwal/seats4u/assets/152037538/c9f0e232-1e7a-4f6b-bea5-dd58096a07b3" width="600">
 
 ## Further Notes
 
