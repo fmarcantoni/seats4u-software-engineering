@@ -36,8 +36,8 @@ seats4u is a ticketing platform that serves three different user groups: consume
 
 ## To see the website in action refer to the following link:
 
-https://filippomarcantoni.wixsite.com/portfolio-fmarcanto/portfolio-collections/my-portfolio/seats4u-software-engineering
-
+https://fmarcantoni-portfolio.vercel.app/projects/seats4u
+https://www.youtube.com/watch?v=fALFIBM9eoY
 
 ## Further Notes
 
